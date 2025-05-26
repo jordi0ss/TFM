@@ -1,0 +1,135 @@
+{
+    "merge": true,
+    "download": {
+        "n": 2,
+        "assemblies": [
+            "GCF_000006765.1",
+            "GCF_000014625.1"
+        ]
+    },
+    "indexing": {
+        "n": 2,
+        "assemblies": [
+            "GCF_000006765.1",
+            "GCF_000014625.1"
+        ]
+    },
+    "bowtie2": {
+        "enabled": true,
+        "n": 2,
+        "organisms": [
+            {
+                "accession": "GCF_000006765.1",
+                "file": "PAO1_samples",
+                "samples": [
+                    "PAO1wt12P"
+                ]
+            },
+            {
+                "accession": "GCF_000014625.1",
+                "file": "PA14_samples",
+                "samples": [
+                    "PA14wt0253G"
+                ]
+            }
+        ]
+    },
+    "realign": {
+        "enabled": true,
+        "n": 2,
+        "organisms": [
+            {
+                "accession": "GCF_000006765.1",
+                "file": "PAO1_samples",
+                "samples": [
+                    "PAO1wt12P"
+                ]
+            },
+            {
+                "accession": "GCF_000014625.1",
+                "file": "PA14_samples",
+                "samples": [
+                    "PA14wt0253G"
+                ]
+            }
+        ]
+    },
+    "snps": true,
+    "indels": true,
+    "build": {
+        "enabled": true,
+        "n": 2,
+        "databases": [
+            "NC_002516.2",
+            "NC_008463.1"
+        ]
+    },
+    "SNP_indel_annotation": {
+        "enabled": true,
+        "n": 2,
+        "Reference_Sequences": [
+            {
+                "accession": "NC_002516.2",
+                "file": "PAO1_samples",
+                "samples": [
+                    "PAO1wt12P"
+                ]
+            },
+            {
+                "accession": "NC_008463.1",
+                "file": "PA14_samples",
+                "samples": [
+                    "PA14wt0253G", "PA14", "PA14wt12G"
+                ]
+            }
+        ]
+    },
+    "filter_by_parental": {
+        "enabled": true,
+        "n": 2,
+        "Parental": [
+            {
+                "strain": "PAO1",
+                "snps_path": "/home/student/Variant_Calling/Jupyter/SNP_PAO1",
+                "indels_path": "/home/student/Variant_Calling/Jupyter/indels_PAO1",
+                "file": "PAO1_samples",
+                "samples": [
+                    "PAO1wt12P"
+                ]
+            },
+            {
+                "strain": "PA14",
+                "snps_path": "/home/student/Variant_Calling/Jupyter/SNP_PA14",
+                "indels_path": "/home/student/Variant_Calling/Jupyter/indels_PA14",
+                "file": "PA14_samples",
+                "samples": [
+                    "PA14wt0253G", "PA14", "PA14wt12G"
+                ]
+            }
+        ]
+    },
+    "table": {
+        "enabled": true,
+        "threshold": 1,
+        "n": 2,
+        "strains": [
+            {
+                "strain": "PAO1",
+                "file": "PAO1_samples",
+                "samples": [
+                    "PAO1wt12P"
+                ]
+            },
+            {
+                "strain": "PA14",
+                "file": "PA14_samples",
+                "samples": [
+                    "PA14wt0253G", "PA14", "PA14wt12G"
+                ]
+            }
+        ]
+    },
+    "denovo": true,
+    "compress": false,
+    "generated_at": "2025-05-09 20:54:06"
+}
