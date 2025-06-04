@@ -29,7 +29,8 @@
                 "accession": "GCF_000014625.1",
                 "file": "PA14_samples",
                 "samples": [
-                    "PA14wt0253G"
+                    "PA14wt0253G",
+                    "PA14wt0251G"
                 ]
             }
         ]
@@ -49,7 +50,8 @@
                 "accession": "GCF_000014625.1",
                 "file": "PA14_samples",
                 "samples": [
-                    "PA14wt0253G"
+                    "PA14wt0253G",
+                    "PA14wt0251G"
                 ]
             }
         ]
@@ -79,7 +81,8 @@
                 "accession": "NC_008463.1",
                 "file": "PA14_samples",
                 "samples": [
-                    "PA14wt0253G"
+                    "PA14wt0253G",
+                    "PA14wt0251G"
                 ]
             }
         ]
@@ -103,7 +106,8 @@
                 "indels_path": "/home/student/Variant_Calling/Jupyter/indels_PA14",
                 "file": "PA14_samples",
                 "samples": [
-                    "PA14wt0253G"
+                    "PA14wt0253G",
+                    "PA14wt0251G"
                 ]
             }
         ]
@@ -124,12 +128,13 @@
                 "strain": "PA14",
                 "file": "PA14_samples",
                 "samples": [
-                    "PA14wt0253G"
+                    "PA14wt0253G",
+                    "PA14wt0251G"
                 ]
             }
         ]
     },
     "denovo": true,
     "compress": false,
-    "generated_at": "2025-06-01 21:45:27"
+    "generated_at": "2025-06-04 03:18:41"
 }
