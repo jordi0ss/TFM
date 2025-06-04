@@ -1,7 +1,7 @@
 # Variant Calling Analysis
 
 ## Directory strucutre
-
+<pre>```
 └── Analysis
     ├── assemblies
     ├── fastq
@@ -22,7 +22,7 @@
         ├── results
         ├── snps
         ├── totalpileup
-        └── vcf
+        └── vcf```</pre>
 
 ## Softwares
 
@@ -52,7 +52,7 @@ Some of these programs can be installed from the environment.yml file using the 
 
 conda env create -f environment.yml
 
-## 
+## Other considerations
 
 The paths to the different programs must be correctly specified in the code, and the files PAO1.csv, PA14.csv, and PA14.gff3 must be located in the correct directory (./genomes/annotated/ directory).
 
