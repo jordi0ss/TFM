@@ -1,6 +1,6 @@
 # Variant Calling Analysis
 
-## Directory strucutre
+## Directory structure
 <pre>```
 └── Analysis
     ├── assemblies
