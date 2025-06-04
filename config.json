@@ -79,7 +79,7 @@
                 "accession": "NC_008463.1",
                 "file": "PA14_samples",
                 "samples": [
-                    "PA14wt0253G", "PA14", "PA14wt12G"
+                    "PA14wt0253G"
                 ]
             }
         ]
@@ -103,7 +103,7 @@
                 "indels_path": "/home/student/Variant_Calling/Jupyter/indels_PA14",
                 "file": "PA14_samples",
                 "samples": [
-                    "PA14wt0253G", "PA14", "PA14wt12G"
+                    "PA14wt0253G"
                 ]
             }
         ]
@@ -124,12 +124,12 @@
                 "strain": "PA14",
                 "file": "PA14_samples",
                 "samples": [
-                    "PA14wt0253G", "PA14", "PA14wt12G"
+                    "PA14wt0253G"
                 ]
             }
         ]
     },
     "denovo": true,
     "compress": false,
-    "generated_at": "2025-05-09 20:54:06"
+    "generated_at": "2025-06-01 21:45:27"
 }
